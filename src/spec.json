@@ -1,0 +1,236 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo per consultare e aggiornare pratiche, monitorandone stato e scadenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle pratiche e delle scadenze dello sportello.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In attesa",
+          "value": "7"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "8"
+        },
+        {
+          "label": "Da completare entro 7 giorni",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data ricezione",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "SP-1042",
+          "Nubi Selene",
+          "Rinnovo tessera civica",
+          "12/03/2026",
+          "26/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "SP-1043",
+          "Vela Orione",
+          "Richiesta attestazione",
+          "14/03/2026",
+          "28/03/2026",
+          "In attesa"
+        ],
+        [
+          "SP-1044",
+          "Lumo Cedro",
+          "Aggiornamento registro",
+          "15/03/2026",
+          "29/03/2026",
+          "Da verificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile delle pratiche con stato e scadenza. La ricerca e i filtri sono separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "24"
+        },
+        {
+          "label": "Scadute",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data ricezione",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "SP-1038",
+          "Lumo Brina",
+          "Rilascio attestazione",
+          "08/03/2026",
+          "22/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "SP-1039",
+          "Vela Quarzo",
+          "Variazione anagrafica",
+          "09/03/2026",
+          "23/03/2026",
+          "In attesa"
+        ],
+        [
+          "SP-1040",
+          "Nubi Ardesia",
+          "Richiesta certificazione",
+          "10/03/2026",
+          "24/03/2026",
+          "Completata"
+        ],
+        [
+          "SP-1041",
+          "Lumo Rugiada",
+          "Aggiornamento registro",
+          "11/03/2026",
+          "25/03/2026",
+          "Da verificare"
+        ],
+        [
+          "SP-1042",
+          "Nubi Selene",
+          "Rinnovo tessera civica",
+          "12/03/2026",
+          "26/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "SP-1043",
+          "Vela Orione",
+          "Richiesta attestazione",
+          "14/03/2026",
+          "28/03/2026",
+          "In attesa"
+        ],
+        [
+          "SP-1044",
+          "Lumo Cedro",
+          "Aggiornamento registro",
+          "15/03/2026",
+          "29/03/2026",
+          "Da verificare"
+        ],
+        [
+          "SP-1045",
+          "Vela Mirto",
+          "Rilascio attestazione",
+          "16/03/2026",
+          "30/03/2026",
+          "In lavorazione"
+        ]
+      ],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data ricezione",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "scadenze",
+      "title": "Scadenze",
+      "description": "Vista filtrabile delle pratiche ordinate per data di scadenza.",
+      "metrics": [
+        {
+          "label": "Entro 7 giorni",
+          "value": "3"
+        },
+        {
+          "label": "Entro 30 giorni",
+          "value": "11"
+        },
+        {
+          "label": "In ritardo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Data ricezione",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "SP-1038",
+          "Lumo Brina",
+          "Rilascio attestazione",
+          "08/03/2026",
+          "22/03/2026",
+          "In lavorazione"
+        ],
+        [
+          "SP-1039",
+          "Vela Quarzo",
+          "Variazione anagrafica",
+          "09/03/2026",
+          "23/03/2026",
+          "In attesa"
+        ],
+        [
+          "SP-1040",
+          "Nubi Ardesia",
+          "Richiesta certificazione",
+          "10/03/2026",
+          "24/03/2026",
+          "Completata"
+        ],
+        [
+          "SP-1041",
+          "Lumo Rugiada",
+          "Aggiornamento registro",
+          "11/03/2026",
+          "25/03/2026",
+          "Da verificare"
+        ],
+        [
+          "SP-1042",
+          "Nubi Selene",
+          "Rinnovo tessera civica",
+          "12/03/2026",
+          "26/03/2026",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
